@@ -1,8 +1,9 @@
 :root {
     --background-image: url("https://imgur.com/a/EpYxSpq");
 }
-
-.theme-dark, .theme-light {
-    background: var(--background-image) no-repeat center center fixed;
+:head {
+    .theme-dark, 
+    background: var(--background-image) no-repeat center 
+    center fixed;
     background-size: cover;
 }
